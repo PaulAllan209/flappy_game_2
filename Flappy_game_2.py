@@ -35,7 +35,7 @@ def draw_circle(circle):
 
 # def pipes(space):changed in website tester
 # TODO: Reserch about collision detection in pymunk
-# committed on desktop just testing
+# desktop commit
 def static_ball(space):
     body = pymunk.Body(body_type=pymunk.Body.STATIC)
     body.position = (150, 600)
