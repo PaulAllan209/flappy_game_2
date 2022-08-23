@@ -33,9 +33,9 @@ def draw_circle(circle):
     pygame.draw.circle(screen, red, circle.body.position, 40)
 
 
-# def pipes(space):changed in website tester
+# def pipes(space):
 # TODO: Reserch about collision detection in pymunk
-# desktop commit
+# Ichanged this in main branch
 def static_ball(space):
     body = pymunk.Body(body_type=pymunk.Body.STATIC)
     body.position = (150, 600)
